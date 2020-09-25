@@ -8,20 +8,20 @@ namespace Cars
 {
     public static class examples
     {
-    //    var query =
-    //from car in cars
-    //group car by car.Manufacturer into carGroup
-    //select new
-    //{
-    //    Name = carGroup.Key,
-    //    Max = carGroup.Max(c => c.Combined),
-    //    Min = carGroup.Min(c => c.Combined),
-    //    Avg = carGroup.Average(c => c.Combined)
-    //} into result
-    //orderby result.Max descending
-    //select result;
+        //    var query =
+        //from car in cars
+        //group car by car.Manufacturer into carGroup
+        //select new
+        //{
+        //    Name = carGroup.Key,
+        //    Max = carGroup.Max(c => c.Combined),
+        //    Min = carGroup.Min(c => c.Combined),
+        //    Avg = carGroup.Average(c => c.Combined)
+        //} into result
+        //orderby result.Max descending
+        //select result;
 
-
+        // var manufacturers = ProcessManufacturers("manufacturers.csv");
 
         //var query =
         //    from manufacturer in manufacturers
@@ -229,6 +229,24 @@ namespace Cars
         //    Console.WriteLine(name);
 
         //}
+
+
+
+
+
+
+        ////
+        //Func<int, int> square = x => x * x;
+        //Expression<Func<int, int, int>> add = (x, y) => x + y;
+        //Func<int, int, int> addI = add.Compile();
+
+
+        //var result = addI(3, 5);
+        //Console.WriteLine(result);
+        //    Console.WriteLine(add);
+
+        //    //
+
     }
 }
 
